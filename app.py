@@ -63,7 +63,7 @@ def main():
     # 스캔 실행
     with st.spinner("🧠Scanning document..."):
         result, warped_doc, mask = scan_document(
-            img = image_bgr,
+            image = image_bgr,
             mode = mode,
             auto_crop = auto_crop,
             remove_colored_notes = remove_notes,
